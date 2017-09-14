@@ -8,7 +8,8 @@
 }
 
 body {
-	background: #F5F5F5;
+	background: #6991AC;
+	/*--- #F5F5F5; ---*/
 	columns: #67727A;
 	font-family: 'Alegreya', sans-serif;
 	margin: 0;
@@ -109,12 +110,14 @@ nav ul li a:hover{
 /*--- End Navigation ---*/
 
 .banner {
+	padding-top: 100px;
 	width: 100%;
 	background-color: #6991AC;
 }
 .banner-inner {
-	max-width: 1100px;
-	margin: 0 auto;
+	max-width: absolute;
+	text-align: center;
+	margin: auto;
 }
 .one-fourth {
 	width: 25%;
@@ -122,7 +125,8 @@ nav ul li a:hover{
 	text-align: center;
 }
 #html {
-	background-color: #F1AA90;
+	background-color: #6991AC;
+	/*--- #F1AA90 ---*/
 }
 
 #css {
